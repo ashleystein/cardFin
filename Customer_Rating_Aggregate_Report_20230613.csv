@@ -1,0 +1,5 @@
+agency,cust_num_count,cust_rt_sum,cust_sts_count,invalid_cust_count,percent_invalid_data
+agency_a,19,4269338,5,0,0.0
+agency_b,16,4384678,4,3,0.16
+agency_c,19,4929744,1,0,0.0
+agency_d,18,4432669,0,1,0.05
