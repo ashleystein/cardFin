@@ -2,7 +2,7 @@ import datetime
 from datetime import timedelta
 
 import data_load as dl
-import dbConnector as sqlconn
+import db_connector as sqlconn
 import report
 
 

@@ -14,7 +14,7 @@ class DbConnector:
         """
         try:
             # TODO: In the ideal scenario this will be stored in secure place, like HCV
-            self.conn = mysql.connector.connect(user='root', password='my-secret-password',
+            self.conn = mysql.connector.connect(user='root', password='',
                                                 host='127.0.0.1', port='3306')
         except mysql.connector.Error as err:
             print("Connection to database failed: {}".format(err))

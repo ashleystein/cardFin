@@ -1,6 +1,6 @@
 import csv
 import pandas as pd
-import dbConnector as sqlconn
+import db_connector as sqlconn
 import mysql.connector
 
 

@@ -1,4 +1,4 @@
-import dbConnector as sqlconn
+import db_connector as sqlconn
 
 
 def create_db():
