@@ -4,7 +4,7 @@ import db_connector as sqlconn
 import mysql.connector
 
 
-def read_csv(file_path, cyc_dt):
+def read_csv(file_nm, cyc_dt):
     """
     Reads the csv file, creates a dataframe with the
     :param file_path: file name or path
@@ -12,6 +12,7 @@ def read_csv(file_path, cyc_dt):
     :return: a dataframe with the values in the csv file and
         the number of invalid customer numbers.
     """
+    file_path = '../csv_files/'+ file_nm
     invalid_count = 0
     with open(file_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
